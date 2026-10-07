@@ -1,0 +1,58 @@
+{
+ "_note": "The ONLY figures allowed on the comprarcarne.es pages. No client business data (revenue, customers, growth, orders), no views, no sales, no generations or production days.",
+ "full_case": [
+  {
+   "v": "21",
+   "en": "seconds of film, end card included",
+   "es": "segundos de film, cierre incluido"
+  },
+  {
+   "v": "16",
+   "en": "shots in the master",
+   "es": "planos en el máster"
+  },
+  {
+   "v": "4",
+   "en": "rooms of one home: kitchen, living room, corridor, entrance",
+   "es": "estancias de una casa: cocina, salón, pasillo y entrada"
+  },
+  {
+   "v": "1",
+   "en": "real product: the client’s own box",
+   "es": "producto real: la caja del cliente"
+  },
+  {
+   "v": "0",
+   "en": "cameras, crews or locations hired",
+   "es": "cámaras, equipos o localizaciones alquiladas"
+  },
+  {
+   "v": "2024",
+   "en": "client since the brand’s launch",
+   "es": "cliente desde el lanzamiento de la marca"
+  }
+ ],
+ "work_card": [
+  {
+   "v": "21",
+   "en": "seconds",
+   "es": "segundos"
+  },
+  {
+   "v": "16",
+   "en": "shots",
+   "es": "planos"
+  },
+  {
+   "v": "2024",
+   "en": "client since",
+   "es": "cliente desde"
+  }
+ ],
+ "video_file": {
+  "path": "/media/comprar-carne-spot-2026.mp4",
+  "duration_s": 21.3,
+  "size": "1280x720",
+  "note": "story ~17.6 s + brand end card; schema duration PT21S"
+ }
+}

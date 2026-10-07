@@ -1,0 +1,90 @@
+/* =====================================================================
+   COMPRARCARNE.ES CASE — the ONLY new CSS for /work/comprarcarne and
+   /es/work/comprarcarne (+ two small blocks for /work and the Home)
+   ---------------------------------------------------------------------
+   Same system as /work/zayra and /work/arturos: the page reuses the
+   existing .zayra-scope style block (tokens, hero, facts, chainbar,
+   sec-head, two, big, ticks, chapters/chap, palette, rules, idgrid,
+   board, films, nums, brand3, note).
+   Wrapper on the page:  <div class="zayra-scope case-comprarcarne">
+   Everything below is scoped, nothing global changes.
+   ===================================================================== */
+
+/* Case accent: comprarcarne.es magenta (brand #C30056), lifted to #F0006A
+   so mono labels pass AA contrast on the black background (4.7:1) and the
+   solid button keeps black text (4.9:1). */
+.zayra-scope.case-comprarcarne{--sig:#F0006A;--sig-ink:#000}
+
+/* Hero: poster + silent loop; the brand name is long, so the H1 is smaller */
+.case-comprarcarne .hero .poster img{object-position:50% 40%}
+.case-comprarcarne .hero h1{font-size:clamp(42px,8.6vw,150px);overflow-wrap:anywhere}
+.case-comprarcarne .hero h1 span{letter-spacing:.24em;font-size:.4em}
+.case-comprarcarne .hero::before{content:"";position:absolute;inset:0 0 auto 0;height:110px;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(6,6,6,.7),rgba(6,6,6,0))}
+.case-comprarcarne .hero-meta{color:#d6d6d0}
+
+/* 03 — story timeline: same .chapters/.chap component, 6 moments */
+.case-comprarcarne .chapters.c6{grid-template-columns:repeat(6,1fr)}
+.case-comprarcarne .chapters.c6 .chap b{font-size:clamp(20px,1.9vw,27px);line-height:1}
+@media(max-width:1000px){.case-comprarcarne .chapters.c6{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:620px){.case-comprarcarne .chapters.c6{grid-template-columns:repeat(2,1fr)}}
+
+/* 06 — shot map on black */
+.case-comprarcarne .board.dark{background:#000}
+
+/* 05 + 06 — frames with caption underneath (16-shot grid, food pair) */
+.case-comprarcarne .frames{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,1.8vw,22px) 6px}
+.case-comprarcarne .frames.f2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:1000px){.case-comprarcarne .frames{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.case-comprarcarne .frames,.case-comprarcarne .frames.f2{grid-template-columns:1fr}}
+.case-comprarcarne .frames figure{margin:0}
+.case-comprarcarne .frames img{width:100%;aspect-ratio:16/9;object-fit:cover;border:1px solid var(--line-soft)}
+.case-comprarcarne .frames figcaption{margin-top:8px;font-size:13px;line-height:1.5;color:#bdbdb8}
+.case-comprarcarne .frames figcaption b{display:block;font-family:var(--mono);font-weight:500;font-size:10px;letter-spacing:.16em;color:var(--sig);margin-bottom:3px;text-transform:uppercase}
+.case-comprarcarne .sub-h + .frames{margin-top:0}
+
+/* 07 — one master film, full width */
+.case-comprarcarne .films.solo{grid-template-columns:1fr}
+
+/* 08 — client card (same lines and type as the Arturos press card) */
+.case-comprarcarne .press{border:1px solid var(--line);display:grid;grid-template-columns:230px 1fr auto}
+.case-comprarcarne .press>*{padding:clamp(16px,2vw,26px)}
+.case-comprarcarne .press .meta{border-right:1px solid var(--line);display:grid;gap:8px;align-content:start}
+.case-comprarcarne .press .meta i{font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--sig)}
+.case-comprarcarne .press .meta b{font-family:var(--disp);font-size:26px;text-transform:uppercase;line-height:1;letter-spacing:.02em}
+.case-comprarcarne .press .meta span{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase}
+.case-comprarcarne .press p{margin:0;color:#bdbdb8;font-size:14px;line-height:1.65;max-width:72ch}
+.case-comprarcarne .press a.read{border-left:1px solid var(--line);display:grid;place-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--sig);white-space:nowrap;transition:background .25s}
+.case-comprarcarne .press a.read:hover{background:var(--bg-2)}
+@media(max-width:900px){
+  .case-comprarcarne .press{grid-template-columns:1fr}
+  .case-comprarcarne .press .meta{border-right:0;border-bottom:1px solid var(--line)}
+  .case-comprarcarne .press a.read{border-left:0;border-top:1px solid var(--line);place-items:start}
+}
+
+/* 09 — six production figures: 3 x 2 */
+.case-comprarcarne .nums.n3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:900px){.case-comprarcarne .nums.n3{grid-template-columns:1fr 1fr}}
+
+/* 11 — FAQ (visible; mirrors the FAQPage JSON-LD) */
+.case-comprarcarne .faq{display:grid;grid-template-columns:1fr 1fr;border-left:1px solid var(--line);border-top:1px solid var(--line)}
+.case-comprarcarne .faq>div{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 18px 24px}
+.case-comprarcarne .faq span{font-family:var(--mono);font-size:10px;color:var(--sig);letter-spacing:.18em}
+.case-comprarcarne .faq h3{margin:8px 0 10px;font-family:var(--disp);font-size:clamp(21px,2.1vw,28px);text-transform:uppercase;line-height:1}
+.case-comprarcarne .faq p{margin:0;color:var(--dim);font-size:14px;line-height:1.65}
+@media(max-width:860px){.case-comprarcarne .faq{grid-template-columns:1fr}}
+
+/* =====================================================================
+   /work + /es/work — "Featured cases" with FOUR cards (2 x 2):
+   Arturos (case of the month) · comprarcarne.es · Zayra · Miguel Cartujo
+   Replaces the ".fcases.three" layout of the Arturos package.
+   ===================================================================== */
+.zayra-scope .fcases.four{grid-template-columns:1fr 1fr}
+.zayra-scope .fcases.four .wcard.sec{grid-column:auto}
+.zayra-scope .wcard.comprarcarne{--sig:#F0006A}
+@media(max-width:1000px){.zayra-scope .fcases.four{grid-template-columns:1fr}}
+
+/* =====================================================================
+   Home + /es — comprarcarne.es strip under the Arturos featured block
+   (uses the .fcase-next strip of the Arturos package, magenta accent)
+   ===================================================================== */
+.zayra-scope .fcase-next.comprarcarne{--sig:#F0006A}

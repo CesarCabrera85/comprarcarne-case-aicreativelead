@@ -1,0 +1,971 @@
+{
+ "_note": "All texts for the comprarcarne.es case, EN and ES. Use them exactly as written.",
+ "case": {
+  "en": {
+   "lang": "en",
+   "locale": "en_GB",
+   "path": "/work/comprarcarne",
+   "title": "comprarcarne.es case: an AI TV commercial for a real client | AI Creative Lead",
+   "og_title": "comprarcarne.es case: an AI TV commercial for a real client",
+   "description": "How AI Creative Lead produced a TV commercial with generative AI for comprarcarne.es, a client since 2024: the brand’s real box, appetizing food and a family, shot by shot.",
+   "crumb": [
+    [
+     "Home",
+     "/"
+    ],
+    [
+     "Work",
+     "/work"
+    ],
+    [
+     "comprarcarne.es",
+     null
+    ]
+   ],
+   "hero_meta": [
+    "CASE 03 · AI TV COMMERCIAL · CLIENT · 2026",
+    "00:00 → 00:21"
+   ],
+   "h1": "COMPRARCARNE.ES",
+   "h1_sub": "The box is here",
+   "lede": "A TV commercial for comprarcarne.es, the online butcher’s from Málaga: an order, a wait, a doorbell and the brand’s real box at the door — produced end to end with generative AI for a client we have worked with since 2024.",
+   "cta_film": "Watch the film",
+   "cta_brief": "Send us the brief",
+   "book": "/#book",
+   "chain": [
+    [
+     "project",
+     "Brief"
+    ],
+    [
+     "direction",
+     "Story"
+    ],
+    [
+     "cast",
+     "Cast"
+    ],
+    [
+     "product",
+     "Product"
+    ],
+    [
+     "shots",
+     "Shot by shot"
+    ],
+    [
+     "film",
+     "Film"
+    ],
+    [
+     "client",
+     "Client"
+    ],
+    [
+     "result",
+     "Production"
+    ]
+   ],
+   "chain_label": "Case chapters",
+   "facts": [
+    [
+     "Client",
+     "comprarcarne.es (online butcher’s, Málaga)"
+    ],
+    [
+     "Type",
+     "TV commercial · client work"
+    ],
+    [
+     "Delivered",
+     "Film · 16:9 · 21 s"
+    ],
+    [
+     "Client since",
+     "2024"
+    ]
+   ],
+   "s01": [
+    "The project",
+    "01 / PROJECT"
+   ],
+   "project": "comprarcarne.es is an online butcher’s from Málaga that delivers fresh meat — vacuum-packed and chilled — to homes across mainland Spain. The idea: a TV spot that turns the purchase itself into the story, from the first tap on the phone to the first bite, with a family as the cast. Client work by AI Creative Lead, directed by César Cabrera.",
+   "s02": [
+    "The challenge",
+    "02 / PROBLEM"
+   ],
+   "big": "Kids, food and a real product: three of the hardest things to <u>shoot</u>.",
+   "challenge": "A real client with a real product. The spot had to show the brand’s own delivery box — colour, logo and printed copy — make meat look appetizing on screen and carry a family through a house where the camera never stops, in a single TV slot.",
+   "ticks": [
+    "The client’s real box, exact, revealed only when the doorbell rings.",
+    "Food that makes you hungry: golden crust, sizzle, knife and fork.",
+    "Kids of clearly different ages and faces — brothers, not twins."
+   ],
+   "s03": [
+    "Creative direction",
+    "03 / DECISION"
+   ],
+   "decision": "Spanish colour at full volume and a camera that never stops. The story is a countdown — order, wait, doorbell, box, pan, table — and the product enters for real at the exact moment the doorbell rings.",
+   "beats": [
+    [
+     "00:00",
+     "THE ORDER",
+     "“Shall we order the box?”",
+     "01"
+    ],
+    [
+     "00:06",
+     "THE WAIT",
+     "Eyes on the front door",
+     "05"
+    ],
+    [
+     "00:08",
+     "DING-DONG",
+     "The run down the corridor",
+     "06b"
+    ],
+    [
+     "00:10",
+     "THE BOX",
+     "The real box, seen for the first time",
+     "06"
+    ],
+    [
+     "00:12",
+     "THE SIZZLE",
+     "From vacuum pack to golden crust",
+     "09"
+    ],
+    [
+     "00:16",
+     "THE TABLE",
+     "Everyone eats, knife and fork",
+     "15"
+    ]
+   ],
+   "palette_h": [
+    "Palette",
+    "THE HOUSE → THE BRAND"
+   ],
+   "palette_names": {
+    "crimson": "Crimson",
+    "turquoise": "Turquoise",
+    "mustard": "Mustard",
+    "petrol": "Petrol blue",
+    "yellow": "Yellow",
+    "brand": "Brand magenta"
+   },
+   "rules_h": [
+    "Production rules",
+    "BIBLE"
+   ],
+   "rules": [
+    "The real box is only seen when the doorbell rings.",
+    "Before that, only on a phone screen and in a child’s drawing.",
+    "Every room in the palette: crimson, turquoise, mustard, petrol blue.",
+    "Characters look out of the window from inside the house.",
+    "Everyone eats with knife and fork.",
+    "No captions or supers: the brand speaks through the box and the end card."
+   ],
+   "s04": [
+    "A family the colour of the house.",
+    "04 / CAST"
+   ],
+   "cast": "The family was designed before production and dressed in the palette of the set: Mum in mustard, the boys in blue, green and yellow — clearly different ages, heights and faces. Brothers, not twins.",
+   "cast_tiles": [
+    [
+     "07",
+     "MUM · MUSTARD",
+     "50% 50%"
+    ],
+    [
+     "10",
+     "THE ELDEST · BLUE",
+     "14% 50%"
+    ],
+    [
+     "02",
+     "THE MIDDLE ONE · GREEN",
+     "50% 50%"
+    ],
+    [
+     "14",
+     "THE LITTLE ONE · YELLOW",
+     "50% 50%"
+    ]
+   ],
+   "s05": [
+    "The box is the hero.",
+    "05 / PRODUCT"
+   ],
+   "product": "Before the doorbell, the box only exists as a photo on a phone and a child’s crayon drawing. When the door opens it arrives for real — the client’s own box, exact colour, logo and printed copy — and from there the story is what’s inside: vacuum-packed cuts that end up seared on the pan and sliced on the table.",
+   "product_tiles": [
+    [
+     "01",
+     "01 · ON THE PHONE"
+    ],
+    [
+     "06",
+     "02 · AT THE DOOR"
+    ],
+    [
+     "07",
+     "03 · OPEN"
+    ],
+    [
+     "08",
+     "04 · INSIDE"
+    ]
+   ],
+   "food_h": [
+    "Food that makes you hungry",
+    "SIZZLE → TABLE"
+   ],
+   "s06": [
+    "16 shots, one countdown.",
+    "06 / SHOT BY SHOT"
+   ],
+   "shots_lead": "Every shot hands the energy to the next: whip pans, a spin match-cut from the vacuum pack to the pan, and one continuous move that runs down the corridor, opens the door and lands the box in the boys’ arms.",
+   "map_h": [
+    "Shot map — the whole film on one sheet",
+    "16 / 16"
+   ],
+   "grid_h": [
+    "The 16 shots",
+    "00:00 → 00:21"
+   ],
+   "shot_word": "SHOT",
+   "s07": [
+    "The film",
+    "07 / FILM"
+   ],
+   "film": "Sixteen shots, one home, one box. Mastered in 16:9 for TV.",
+   "film_label": [
+    "MASTER · 16:9",
+    ":21"
+   ],
+   "film_aria": "comprarcarne.es — The box is here, AI TV commercial",
+   "s08": [
+    "A client, not a test.",
+    "08 / CLIENT"
+   ],
+   "client_kind": "CLIENT SINCE 2024",
+   "client_sub": "Online butcher’s · Málaga",
+   "client_text": "comprarcarne.es is not a one-off. AI Creative Lead has led the brand’s creative direction since its launch in 2024 — visual identity, website, product photography, social content and campaigns. The TV spot grows out of that work: the same magenta, the same box, the same promise of fresh meat at your door.",
+   "client_link": "Visit comprarcarne.es ↗",
+   "s09": [
+    "The production",
+    "09 / RESULT"
+   ],
+   "result_lead": "Counted from the master. No estimates.",
+   "nums": [
+    [
+     "21",
+     "seconds of film, end card included"
+    ],
+    [
+     "16",
+     "shots in the master"
+    ],
+    [
+     "4",
+     "rooms of one home: kitchen, living room, corridor, entrance"
+    ],
+    [
+     "1",
+     "real product: the client’s own box"
+    ],
+    [
+     "0",
+     "cameras, crews or locations hired"
+    ],
+    [
+     "2024",
+     "client since the brand’s launch"
+    ]
+   ],
+   "s10": [
+    "What this proves for your brand.",
+    "10 / FOR YOUR BRAND"
+   ],
+   "brand3": [
+    [
+     "Your real product, exact.",
+     "Box, label and colour appear as they are — and the story is built around them."
+    ],
+    [
+     "Families without a shoot.",
+     "Kids, a lived-in home and food on the table: produced without cameras, sets or crew."
+    ],
+    [
+     "E-commerce told as a story.",
+     "Order, wait, doorbell, unboxing: the purchase journey becomes the plot."
+    ]
+   ],
+   "s11": [
+    "Questions about AI commercials for brands",
+    "11 / FAQ"
+   ],
+   "faq": [
+    [
+     "Can an AI commercial show a brand’s real product?",
+     "Yes. Here the client’s real delivery box — colour, logo and printed copy — was reproduced from reference images and only revealed when the doorbell rings."
+    ],
+    [
+     "Can food look appetizing in an AI-generated ad?",
+     "Yes, when it is directed like a food shoot: golden crust and sizzle on the pan, real knife-and-fork use, and every plate reviewed shot by shot."
+    ],
+    [
+     "Can an AI commercial feature children?",
+     "Yes. The children are AI-generated characters — no real children are filmed — and the family is designed before production starts."
+    ],
+    [
+     "Does an AI commercial need a shoot, a set or a crew?",
+     "No. The house, the family and every shot were generated: no cameras, crew or location hire. Direction, editing and review work as in any production."
+    ]
+   ],
+   "note": "TV commercial created by AI Creative Lead for comprarcarne.es. Every shot was produced with generative AI; all characters are AI-generated and no real children were filmed.",
+   "closing_h": "Send us the brief.",
+   "closing_p": "Brand, market and channel. We come back with a treatment and a production plan.",
+   "closing_btn": "Send us the brief",
+   "related_label": "Related:",
+   "related_aria": "Related pages",
+   "related": [
+    [
+     "Arturos case",
+     "/work/arturos"
+    ],
+    [
+     "Zayra case",
+     "/work/zayra"
+    ],
+    [
+     "The 8-stage chain",
+     "/method"
+    ]
+   ],
+   "alt_hero": "A courier hands the comprarcarne.es box to the boys at the door of a colourful home",
+   "alt_map": "Shot map of the comprarcarne.es film: the 16 shots in order, from the order on the phone to the end card",
+   "alt_prefix": "comprarcarne.es — The box is here, shot",
+   "alt_project": "comprarcarne.es end card: the brand logo on magenta",
+   "cw_name": "comprarcarne.es — The box is here",
+   "cw_about": "AI TV commercial",
+   "cw_genre": "TV commercial",
+   "video_name": "comprarcarne.es — AI TV commercial",
+   "bc": [
+    [
+     "Home",
+     "/"
+    ],
+    [
+     "Work",
+     "/work"
+    ],
+    [
+     "comprarcarne.es",
+     "/work/comprarcarne"
+    ]
+   ]
+  },
+  "es": {
+   "lang": "es",
+   "locale": "es_ES",
+   "path": "/es/work/comprarcarne",
+   "title": "Caso comprarcarne.es: spot de TV con IA para un cliente real | AI Creative Lead",
+   "og_title": "Caso comprarcarne.es: spot de TV con IA para un cliente real",
+   "description": "Cómo AI Creative Lead produjo con IA un spot de TV para comprarcarne.es, cliente desde 2024: la caja real de la marca, comida apetecible y una familia, plano a plano.",
+   "crumb": [
+    [
+     "Inicio",
+     "/es"
+    ],
+    [
+     "Trabajo",
+     "/es/work"
+    ],
+    [
+     "comprarcarne.es",
+     null
+    ]
+   ],
+   "hero_meta": [
+    "CASO 03 · SPOT DE TV CON IA · CLIENTE · 2026",
+    "00:00 → 00:21"
+   ],
+   "h1": "COMPRARCARNE.ES",
+   "h1_sub": "Ha llegado la cajita",
+   "lede": "Un spot de TV para comprarcarne.es, la carnicería online de Málaga: un pedido, una espera, un timbre y la caja real de la marca en la puerta, producido de principio a fin con IA generativa para un cliente con el que trabajamos desde 2024.",
+   "cta_film": "Ver el film",
+   "cta_brief": "Envíanos el brief",
+   "book": "/#book",
+   "chain": [
+    [
+     "project",
+     "Brief"
+    ],
+    [
+     "direction",
+     "Historia"
+    ],
+    [
+     "cast",
+     "Reparto"
+    ],
+    [
+     "product",
+     "Producto"
+    ],
+    [
+     "shots",
+     "Plano a plano"
+    ],
+    [
+     "film",
+     "Film"
+    ],
+    [
+     "client",
+     "Cliente"
+    ],
+    [
+     "result",
+     "Producción"
+    ]
+   ],
+   "chain_label": "Capítulos del caso",
+   "facts": [
+    [
+     "Cliente",
+     "comprarcarne.es (carnicería online, Málaga)"
+    ],
+    [
+     "Tipo",
+     "Spot de TV · trabajo para cliente"
+    ],
+    [
+     "Entregado",
+     "Film · 16:9 · 21 s"
+    ],
+    [
+     "Cliente desde",
+     "2024"
+    ]
+   ],
+   "s01": [
+    "El proyecto",
+    "01 / PROYECTO"
+   ],
+   "project": "comprarcarne.es es una carnicería online de Málaga que lleva carne fresca, envasada al vacío y en frío, a casas de toda la Península. La idea: un spot de TV que convierta la propia compra en la historia, del primer toque en el móvil al primer bocado, con una familia como reparto. Trabajo para cliente de AI Creative Lead, con dirección de César Cabrera.",
+   "s02": [
+    "El reto",
+    "02 / PROBLEMA"
+   ],
+   "big": "Niños, comida y un producto real: tres de las cosas más difíciles de <u>rodar</u>.",
+   "challenge": "Un cliente real con un producto real. El spot tenía que enseñar la caja de reparto de la marca —color, logo y textos impresos—, hacer que la carne apetezca en pantalla y llevar a una familia por una casa en la que la cámara no para nunca, en un solo pase de TV.",
+   "ticks": [
+    "La caja real del cliente, exacta, que solo aparece cuando suena el timbre.",
+    "Comida que da hambre: costra dorada, chisporroteo, cuchillo y tenedor.",
+    "Niños de edades y caras claramente distintas: hermanos, no gemelos."
+   ],
+   "s03": [
+    "Dirección creativa",
+    "03 / DECISIÓN"
+   ],
+   "decision": "Color español a todo volumen y una cámara que no para nunca. La historia es una cuenta atrás —pedido, espera, timbre, caja, sartén y mesa— y el producto entra de verdad justo cuando suena el timbre.",
+   "beats": [
+    [
+     "00:00",
+     "EL PEDIDO",
+     "«¿Pedimos la cajita?»",
+     "01"
+    ],
+    [
+     "00:06",
+     "LA ESPERA",
+     "Todos mirando la puerta",
+     "05"
+    ],
+    [
+     "00:08",
+     "DING-DONG",
+     "La carrera por el pasillo",
+     "06b"
+    ],
+    [
+     "00:10",
+     "LA CAJITA",
+     "La caja real, vista por primera vez",
+     "06"
+    ],
+    [
+     "00:12",
+     "LA SARTÉN",
+     "Del envasado al vacío a la costra dorada",
+     "09"
+    ],
+    [
+     "00:16",
+     "LA MESA",
+     "Todos a comer, con cuchillo y tenedor",
+     "15"
+    ]
+   ],
+   "palette_h": [
+    "Paleta",
+    "LA CASA → LA MARCA"
+   ],
+   "palette_names": {
+    "crimson": "Carmesí",
+    "turquoise": "Turquesa",
+    "mustard": "Mostaza",
+    "petrol": "Azul petróleo",
+    "yellow": "Amarillo",
+    "brand": "Magenta de marca"
+   },
+   "rules_h": [
+    "Reglas de producción",
+    "BIBLIA"
+   ],
+   "rules": [
+    "La caja real solo se ve cuando suena el timbre.",
+    "Antes, solo en la pantalla del móvil y en el dibujo de un niño.",
+    "Cada estancia en la paleta: carmesí, turquesa, mostaza, azul petróleo.",
+    "Los personajes miran por la ventana desde dentro de casa.",
+    "Todos comen con cuchillo y tenedor.",
+    "Sin rótulos ni sobreimpresiones: la marca habla a través de la caja y el cierre."
+   ],
+   "s04": [
+    "Una familia del color de la casa.",
+    "04 / REPARTO"
+   ],
+   "cast": "La familia se diseñó antes de producir y se vistió con la paleta del decorado: mamá de mostaza y los niños de azul, verde y amarillo, con edades, estaturas y caras claramente distintas. Hermanos, no gemelos.",
+   "cast_tiles": [
+    [
+     "07",
+     "MAMÁ · MOSTAZA",
+     "50% 50%"
+    ],
+    [
+     "10",
+     "EL MAYOR · AZUL",
+     "14% 50%"
+    ],
+    [
+     "02",
+     "EL MEDIANO · VERDE",
+     "50% 50%"
+    ],
+    [
+     "14",
+     "EL PEQUEÑO · AMARILLO",
+     "50% 50%"
+    ]
+   ],
+   "s05": [
+    "La caja es la protagonista.",
+    "05 / PRODUCTO"
+   ],
+   "product": "Antes del timbre, la caja solo existe como foto en un móvil y como dibujo infantil. Cuando se abre la puerta llega de verdad —la caja del cliente, con su color, su logo y sus textos exactos— y a partir de ahí la historia es lo que hay dentro: piezas envasadas al vacío que acaban doradas en la sartén y fileteadas en la mesa.",
+   "product_tiles": [
+    [
+     "01",
+     "01 · EN EL MÓVIL"
+    ],
+    [
+     "06",
+     "02 · EN LA PUERTA"
+    ],
+    [
+     "07",
+     "03 · ABIERTA"
+    ],
+    [
+     "08",
+     "04 · DENTRO"
+    ]
+   ],
+   "food_h": [
+    "Comida que da hambre",
+    "SARTÉN → MESA"
+   ],
+   "s06": [
+    "16 planos, una cuenta atrás.",
+    "06 / PLANO A PLANO"
+   ],
+   "shots_lead": "Cada plano le pasa la energía al siguiente: barridos, un match-cut en giro del envasado a la sartén y un único movimiento continuo que recorre el pasillo, abre la puerta y deja la caja en brazos de los niños.",
+   "map_h": [
+    "Mapa de planos — la película entera en una hoja",
+    "16 / 16"
+   ],
+   "grid_h": [
+    "Los 16 planos",
+    "00:00 → 00:21"
+   ],
+   "shot_word": "PLANO",
+   "s07": [
+    "El film",
+    "07 / FILM"
+   ],
+   "film": "Dieciséis planos, una casa, una caja. Masterizado en 16:9 para TV.",
+   "film_label": [
+    "MÁSTER · 16:9",
+    ":21"
+   ],
+   "film_aria": "comprarcarne.es — Ha llegado la cajita, spot de TV con IA",
+   "s08": [
+    "Un cliente, no una prueba.",
+    "08 / CLIENTE"
+   ],
+   "client_kind": "CLIENTE DESDE 2024",
+   "client_sub": "Carnicería online · Málaga",
+   "client_text": "comprarcarne.es no es un encargo suelto. AI Creative Lead lleva la dirección creativa de la marca desde su lanzamiento en 2024: identidad visual, web, fotografía de producto, contenido para redes y campañas. El spot de TV nace de ese trabajo: el mismo magenta, la misma caja y la misma promesa de carne fresca en tu puerta.",
+   "client_link": "Visitar comprarcarne.es ↗",
+   "s09": [
+    "La producción",
+    "09 / RESULTADO"
+   ],
+   "result_lead": "Contado del máster. Sin estimaciones.",
+   "nums": [
+    [
+     "21",
+     "segundos de film, cierre incluido"
+    ],
+    [
+     "16",
+     "planos en el máster"
+    ],
+    [
+     "4",
+     "estancias de una casa: cocina, salón, pasillo y entrada"
+    ],
+    [
+     "1",
+     "producto real: la caja del cliente"
+    ],
+    [
+     "0",
+     "cámaras, equipos o localizaciones alquiladas"
+    ],
+    [
+     "2024",
+     "cliente desde el lanzamiento de la marca"
+    ]
+   ],
+   "s10": [
+    "Qué demuestra para tu marca.",
+    "10 / PARA TU MARCA"
+   ],
+   "brand3": [
+    [
+     "Tu producto real, exacto.",
+     "Caja, etiqueta y color aparecen tal cual, y la historia se construye a su alrededor."
+    ],
+    [
+     "Familias sin rodaje.",
+     "Niños, una casa vivida y comida en la mesa, producidos sin cámaras, decorados ni equipo."
+    ],
+    [
+     "El e-commerce contado como historia.",
+     "Pedido, espera, timbre y unboxing: el proceso de compra se convierte en el guion."
+    ]
+   ],
+   "s11": [
+    "Preguntas sobre spots con IA para marcas",
+    "11 / PREGUNTAS"
+   ],
+   "faq": [
+    [
+     "¿Puede un spot con IA enseñar el producto real de una marca?",
+     "Sí. Aquí la caja de reparto real del cliente —color, logo y textos impresos— se reprodujo a partir de imágenes de referencia y solo aparece cuando suena el timbre."
+    ],
+    [
+     "¿Puede la comida resultar apetecible en un anuncio generado con IA?",
+     "Sí, si se dirige como un rodaje de food: costra dorada y chisporroteo en la sartén, uso real de cuchillo y tenedor y cada plato revisado plano a plano."
+    ],
+    [
+     "¿Puede salir un niño en un spot con IA?",
+     "Sí. Los niños son personajes generados con IA —no se graba a ningún niño real— y la familia se diseña antes de empezar a producir."
+    ],
+    [
+     "¿Necesita un spot con IA rodaje, decorado o equipo?",
+     "No. La casa, la familia y cada plano se generaron: sin cámaras, sin equipo y sin alquilar localización. La dirección, el montaje y la revisión funcionan como en cualquier producción."
+    ]
+   ],
+   "note": "Spot de TV creado por AI Creative Lead para comprarcarne.es. Todos los planos se produjeron con IA generativa; todos los personajes son generados con IA y no se grabó a ningún niño real.",
+   "closing_h": "Envíanos el brief.",
+   "closing_p": "Marca, mercado y canal. Volvemos con un treatment y un plan de producción.",
+   "closing_btn": "Envíanos el brief",
+   "related_label": "Relacionado:",
+   "related_aria": "Páginas relacionadas",
+   "related": [
+    [
+     "Caso Arturos",
+     "/es/work/arturos"
+    ],
+    [
+     "Caso Zayra",
+     "/es/work/zayra"
+    ],
+    [
+     "La cadena de 8 etapas",
+     "/es/method"
+    ]
+   ],
+   "alt_hero": "Un repartidor entrega la caja de comprarcarne.es a los niños en la puerta de una casa llena de color",
+   "alt_map": "Mapa de planos del film de comprarcarne.es: los 16 planos en orden, del pedido en el móvil al cierre de marca",
+   "alt_prefix": "comprarcarne.es — Ha llegado la cajita, plano",
+   "alt_project": "Cierre de marca de comprarcarne.es: el logotipo sobre magenta",
+   "cw_name": "comprarcarne.es — Ha llegado la cajita",
+   "cw_about": "Spot de TV con IA",
+   "cw_genre": "Spot de TV",
+   "video_name": "comprarcarne.es — spot de TV con IA",
+   "bc": [
+    [
+     "Inicio",
+     "/es"
+    ],
+    [
+     "Trabajo",
+     "/es/work"
+    ],
+    [
+     "comprarcarne.es",
+     "/es/work/comprarcarne"
+    ]
+   ]
+  }
+ },
+ "shots": [
+  {
+   "shot": "01",
+   "file": "comprarcarne-shot-01-order",
+   "timecode": "00:00",
+   "caption_en": "Overhead: Mum shows the box on her phone and the boys pop in — “Shall we order the box?”",
+   "caption_es": "Cenital: mamá enseña la caja en el móvil y asoman los niños — «¿Pedimos la cajita?»"
+  },
+  {
+   "shot": "02",
+   "file": "comprarcarne-shot-02-choosing",
+   "timecode": "00:02",
+   "caption_en": "On the mustard sofa, the middle brother picks the chuletón",
+   "caption_es": "En el sofá mostaza, el mediano elige el chuletón"
+  },
+  {
+   "shot": "03",
+   "file": "comprarcarne-shot-03-tomorrow",
+   "timecode": "00:03",
+   "caption_en": "The little one tugs Mum’s blouse: “Will it come tomorrow?”",
+   "caption_es": "El pequeño tira de la blusa de mamá: «¿Llega mañana?»"
+  },
+  {
+   "shot": "04",
+   "file": "comprarcarne-shot-04-window",
+   "timecode": "00:05",
+   "caption_en": "Looking out at the street, from inside the window",
+   "caption_es": "Mirando la calle desde dentro, en la ventana"
+  },
+  {
+   "shot": "05",
+   "file": "comprarcarne-shot-05-the-wait",
+   "timecode": "00:06",
+   "caption_en": "The wait: on the floor, eyes on the door, a crayon drawing of the box",
+   "caption_es": "La espera: en el suelo, mirando la puerta, con un dibujo de la caja"
+  },
+  {
+   "shot": "06",
+   "file": "comprarcarne-shot-06-the-box-arrives",
+   "timecode": "00:07",
+   "caption_en": "Ding-dong: the run, the door and the box — one continuous move",
+   "caption_es": "Ding-dong: la carrera, la puerta y la caja, en un solo movimiento"
+  },
+  {
+   "shot": "07",
+   "file": "comprarcarne-shot-07-opening-the-box",
+   "timecode": "00:10",
+   "caption_en": "Opening the box at the kitchen table",
+   "caption_es": "Abriendo la caja en la mesa de la cocina"
+  },
+  {
+   "shot": "08",
+   "file": "comprarcarne-shot-08-vacuum-pack",
+   "timecode": "00:12",
+   "caption_en": "A vacuum-packed chuletón, straight out of the box",
+   "caption_es": "Un chuletón envasado al vacío, recién sacado de la caja"
+  },
+  {
+   "shot": "09",
+   "file": "comprarcarne-shot-09-on-the-pan",
+   "timecode": "00:12",
+   "caption_en": "Spin match-cut: on the hot pan, golden crust",
+   "caption_es": "Match-cut en giro: a la sartén, costra dorada"
+  },
+  {
+   "shot": "10",
+   "file": "comprarcarne-shot-10-wow",
+   "timecode": "00:13",
+   "caption_en": "The boys at the counter: “Wow!”",
+   "caption_es": "Los niños en la encimera: «¡Waaao!»"
+  },
+  {
+   "shot": "11",
+   "file": "comprarcarne-shot-11-the-platter",
+   "timecode": "00:14",
+   "caption_en": "The platter: sliced chuletón and salad",
+   "caption_es": "La fuente: chuletón fileteado y ensalada"
+  },
+  {
+   "shot": "12",
+   "file": "comprarcarne-shot-12-first-cut",
+   "timecode": "00:15",
+   "caption_en": "Knife and fork: the first cut",
+   "caption_es": "Cuchillo y tenedor: el primer corte"
+  },
+  {
+   "shot": "13",
+   "file": "comprarcarne-shot-13-first-bite",
+   "timecode": "00:15",
+   "caption_en": "The first bite: “Mmmm!”",
+   "caption_es": "El primer bocado: «¡Mmmm!»"
+  },
+  {
+   "shot": "14",
+   "file": "comprarcarne-shot-14-cheeks-full",
+   "timecode": "00:15",
+   "caption_en": "The little one, cheeks full, cutlery in hand",
+   "caption_es": "El pequeño, mofletes llenos y cubiertos en la mano"
+  },
+  {
+   "shot": "15",
+   "file": "comprarcarne-shot-15-family-table",
+   "timecode": "00:16",
+   "caption_en": "The whole family at the table — fast zoom out",
+   "caption_es": "Toda la familia a la mesa — zoom out rápido"
+  },
+  {
+   "shot": "16",
+   "file": "comprarcarne-shot-16-end-card",
+   "timecode": "00:17",
+   "caption_en": "End card: comprarcarne.es",
+   "caption_es": "Cierre de marca: comprarcarne.es"
+  }
+ ],
+ "palette": [
+  {
+   "hex": "#C64349",
+   "en": "Crimson",
+   "es": "Carmesí"
+  },
+  {
+   "hex": "#308985",
+   "en": "Turquoise",
+   "es": "Turquesa"
+  },
+  {
+   "hex": "#B98231",
+   "en": "Mustard",
+   "es": "Mostaza"
+  },
+  {
+   "hex": "#005F66",
+   "en": "Petrol blue",
+   "es": "Azul petróleo"
+  },
+  {
+   "hex": "#DA9624",
+   "en": "Yellow",
+   "es": "Amarillo"
+  },
+  {
+   "hex": "#C30056",
+   "en": "Brand magenta",
+   "es": "Magenta de marca"
+  }
+ ],
+ "work_card": {
+  "en": {
+   "kicker": "CASE 03 · AI TV COMMERCIAL",
+   "title": "COMPRARCARNE.ES — THE BOX IS HERE",
+   "text": "A real client, a real product: the online butcher’s delivery box becomes the hero of a TV spot, from the first tap to the first bite.",
+   "hot": "CLIENT WORK",
+   "tags": [
+    "AI TV COMMERCIAL",
+    "REAL PRODUCT",
+    "FOOD",
+    "E-COMMERCE"
+   ],
+   "stats": [
+    [
+     "21",
+     "seconds"
+    ],
+    [
+     "16",
+     "shots"
+    ],
+    [
+     "2024",
+     "client since"
+    ]
+   ],
+   "cta": "View case →",
+   "href": "/work/comprarcarne",
+   "alt": "comprarcarne.es — The box is here, AI TV commercial case",
+   "sec_idx": "CASE STUDIES — 04",
+   "miguel_kicker": "CASE 04 · EPISODIC PRODUCTION",
+   "schedule_link": "Case study →",
+   "home_go": "View the case →",
+   "strip_text": "Client work: the brand’s real box arrives at the door of a family home — a TV spot produced with AI."
+  },
+  "es": {
+   "kicker": "CASO 03 · SPOT DE TV CON IA",
+   "title": "COMPRARCARNE.ES — HA LLEGADO LA CAJITA",
+   "text": "Un cliente real, un producto real: la caja de la carnicería online se convierte en la protagonista de un spot de TV, del primer toque al primer bocado.",
+   "hot": "CLIENTE REAL",
+   "tags": [
+    "SPOT DE TV CON IA",
+    "PRODUCTO REAL",
+    "COMIDA",
+    "E-COMMERCE"
+   ],
+   "stats": [
+    [
+     "21",
+     "segundos"
+    ],
+    [
+     "16",
+     "planos"
+    ],
+    [
+     "2024",
+     "cliente desde"
+    ]
+   ],
+   "cta": "Ver caso →",
+   "href": "/es/work/comprarcarne",
+   "alt": "comprarcarne.es — Ha llegado la cajita, caso de spot de TV con IA",
+   "sec_idx": "CASOS DE ESTUDIO — 04",
+   "miguel_kicker": "CASO 04 · PRODUCCIÓN EPISÓDICA",
+   "schedule_link": "Ver el caso →",
+   "home_go": "Ver el caso →",
+   "strip_text": "Trabajo para cliente: la caja real de la marca llega a la puerta de una familia, en un spot de TV producido con IA."
+  }
+ },
+ "client_url": "https://comprarcarne.es/",
+ "video": "/media/comprar-carne-spot-2026.mp4",
+ "hero_loop": "/media/cases/comprarcarne/comprarcarne-hero-loop-720p.mp4",
+ "llms_txt_line": "/work/comprarcarne — Case: AI TV commercial for comprarcarne.es, an online butcher’s from Málaga and AI Creative Lead client since 2024. The client’s real delivery box, appetizing food and a family cast, shot by shot.",
+ "insights_sentences": [
+  {
+   "url": "/insights/state-of-ai-video-generation-2026",
+   "lang": "en",
+   "html": "See where this lands in a real brief: a TV commercial for a long-standing client in the <a href=\"/work/comprarcarne\">comprarcarne.es case</a>."
+  },
+  {
+   "url": "/insights/choosing-ai-video-model-production",
+   "lang": "en",
+   "html": "For a production example with a real product and a real client, see the <a href=\"/work/comprarcarne\">comprarcarne.es case</a>."
+  }
+ ]
+}

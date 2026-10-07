@@ -1,0 +1,64 @@
+ROLE
+You are the developer who maintains aicreativelead.com (Next.js). Your task is to ADD the comprarcarne.es business case to the site, exactly as specified below, using ONLY the files in the repository below. You do not redesign anything, you do not regenerate or edit any image or video, and you do not rewrite any copy.
+
+PREREQUISITE
+This package comes AFTER the Arturos package: https://github.com/CesarCabrera85/arturos-case-aicreativelead . If the Arturos case is not implemented yet, implement that package first, then this one. Arturos stays the CASE OF THE MONTH.
+
+REPOSITORY (everything you need is here — nothing is attached elsewhere)
+Repository: https://github.com/CesarCabrera85/comprarcarne-case-aicreativelead  (public; clone it or read it directly). Its contents:
+- public/images/cases/comprarcarne/ -> ALL the final images (76 files: .jpg, .webp, 400w/800w .webp, .avif for the hero).
+- public/media/cases/comprarcarne/comprarcarne-hero-loop-720p.mp4 -> the SILENT LOOP of the film (6.3 s, no audio, 1.3 MB) for the case hero and the /work card.
+  Copy this public/ folder into the root of the aicreativelead.com codebase, merging with its existing public/ folder. It only ADDS new folders; it replaces nothing.
+- instructions/ -> ABACUS_COMPRARCARNE_INTEGRATION.md (full specification: read it completely before starting; if anything here and there seem to differ, that document wins),
+             comprarcarne-case.css (the ONLY new CSS), copy.json (ALL texts EN and ES), metrics.json (the only figures allowed),
+             seo_meta.json, schema_work_comprarcarne_en.jsonld, schema_work_comprarcarne_es.jsonld, alt_texts.csv,
+             snippets/ (ready markup with final site paths: case_main_en/es.html, work_featured_cases_en/es.html, home_featured_case_en/es.html,
+             schedule_row_link.html, related_links.html, insights_links.md, sitemap_urls.xml, llms_txt_line.txt).
+- previews/ -> open from a local clone with any static server to see the exact result: case_page_en/es.html, work_block_en/es.html, home_block_en/es.html.
+FILM WITH SOUND: the master already on the site, /media/comprar-carne-spot-2026.mp4 — do not re-upload it.
+This repository is a delivery package only. Do NOT deploy it and do NOT make it part of the website. You implement the changes in the aicreativelead.com codebase.
+
+GOAL
+comprarcarne.es is REAL CLIENT WORK: a TV commercial for an online butcher's from Málaga, a client whose creative direction AI Creative Lead has led since the brand's launch in 2024. The brand's real delivery box is the hero of the story (order, wait, doorbell, box, pan, table). It enters the site as a featured case right after Arturos (case of the month) and above Zayra, on /work and on the Home. The film must be SEEN: a silent loop plays in the case hero and the /work card; the full film with sound is in the case page. It must rank for "spot de TV con IA", "anuncio con IA para marcas", "anuncio de comida con IA", "AI TV commercial" and "AI commercial for a real brand".
+
+HARD RULES (non-negotiable)
+- ALWAYS BOTH LANGUAGES: every change exists in English AND Spanish (EN page + ES page). Never ship one language without the other.
+- Real client, real facts: present it as client work, never as a concept. Use only the figures in metrics.json. NEVER publish client business data (revenue, customers, growth, orders), views or sales.
+- No prices, no delivery-time promises and no AI tool or model names on these pages.
+- The creative brief / generation prompt of the spot is confidential: it is not in this repository and must never be published. Do not add claims that are not in copy.json.
+- Every character is AI-generated (no real children were filmed): keep the closing note and the FAQ answer that say so.
+- Same design as /work/zayra and /work/arturos: reuse the .zayra-scope components. Case accent = comprarcarne.es magenta #F0006A (wrapper <div class="zayra-scope case-comprarcarne">). ON AIR dot, red "LEAD" and .btn-red #FF3B30 stay unchanged.
+- Do NOT modify: global metadata, existing titles/descriptions/URLs/slugs, redirects, robots.txt, global hreflang, the Organization/Person schema, Search Console, Bing, Analytics configuration, consent banner, the generate_lead event, /admin/seo or the weekly SEO engine. The only existing pages you touch are the ones listed in STEPS 4–5.
+- Every "Send us the brief" uses the site's existing booking exactly as /work/zayra does. No new form.
+- Use every string from copy.json and every number from metrics.json exactly as written (EN and ES).
+- Work on a branch and deploy to a PREVIEW/STAGING URL first. Do NOT publish to production until César approves the preview.
+
+STEP 1 — PUBLISH THE ASSETS
+Copy public/ of this repository into the codebase root (merge). Result: public/images/cases/comprarcarne/ (76 files) and public/media/cases/comprarcarne/comprarcarne-hero-loop-720p.mp4, names unchanged. Do not rename, re-crop, regenerate or re-encode. The mp4 must be served as video/mp4 with range requests.
+
+STEP 2 — CREATE /work/comprarcarne AND /es/work/comprarcarne
+Same route pattern and inner-page shell as /work/zayra and /work/arturos. The content of <main> is instructions/snippets/case_main_en.html and case_main_es.html. Add instructions/comprarcarne-case.css (scoped). Order: hero (single H1 "COMPRARCARNE.ES" + "The box is here" / "Ha llegado la cajita", silent loop over the poster) · chain bar · facts · 01 project · 02 challenge · 03 creative direction (6-moment timeline + palette + production rules) · 04 cast · 05 product (the box + food) · 06 shot by shot (shot map + 16 captioned shots) · 07 film · 08 client · 09 production figures · 10 what this proves · 11 FAQ · disclosure note · existing closing section with related links (Arturos case, Zayra case, The 8-stage chain). Match previews/case_page_en.html and case_page_es.html.
+Hero video: <video autoplay muted loop playsinline preload="metadata" data-bgvideo="1" aria-hidden="true" poster="/images/cases/comprarcarne/comprarcarne-hero-poster.webp" src="/media/cases/comprarcarne/comprarcarne-hero-loop-720p.mp4"> over the poster (same handling as the Zayra/Arturos hero; poster only with prefers-reduced-motion). "Watch the film" / "Ver el film" jumps to section 07, the player with sound: <video controls playsinline preload="none" width="1280" height="720" poster="/images/cases/comprarcarne/comprarcarne-hero-poster.webp"> with source /media/comprar-carne-spot-2026.mp4. Never autoplay with sound. The client link in section 08 (https://comprarcarne.es/) opens in a new tab with rel="noopener".
+Images: <picture> WebP srcset -> JPG <img> with width/height; loading="lazy" decoding="async" everywhere except the hero (fetchpriority="high"). The EN/ES toggle swaps /work/comprarcarne <-> /es/work/comprarcarne.
+
+STEP 3 — SEO FOR THE TWO NEW PAGES
+From instructions/seo_meta.json via the normal Next.js metadata mechanism: title, meta description, html lang, self canonical, robots "index, follow", hreflang en (/work/comprarcarne), es (/es/work/comprarcarne), x-default (/work/comprarcarne), OpenGraph (og:type article, image comprarcarne-og-1200x630.jpg 1200x630, og:video) and Twitter summary_large_image. Inject the JSON-LD from schema_work_comprarcarne_en.jsonld / _es.jsonld, replacing PUBLISH_DATE_ISO8601 with the real publish date (CreativeWork, Organization = the client, VideoObject, FAQPage, BreadcrumbList). They reference the existing #org and #cesar by @id — do not redefine them.
+
+STEP 4 — /work, /es/work AND THE HOME
+a) /work and /es/work: replace section#featured-cases with instructions/snippets/work_featured_cases_en.html / _es.html — FOUR cards, 2 x 2 on desktop: ARTUROS FIRST (case of the month, unchanged), COMPRARCARNE.ES SECOND (magenta, tag "CLIENT WORK" / "CLIENTE REAL", silent loop), ZAYRA THIRD, MIGUEL CARTUJO FOURTH (now CASE 04 / CASO 04). Header idx "CASE STUDIES — 04" / "CASOS DE ESTUDIO — 04". Needs the "/work" CSS block of comprarcarne-case.css (.fcases.four).
+b) In "The schedule" / "La parrilla", the row COMPRAR CARNE SPOT 2026 gets a crawlable link to /work/comprarcarne (ES /es/work/comprarcarne) — snippets/schedule_row_link.html, same .wcase style as the ARTURO SPOT 2026 row. Keep the row's current behaviour.
+c) Home (/ and /es): replace the content of section#featured-case with snippets/home_featured_case_en.html / _es.html: Arturos stays the main block (case of the month); the comprarcarne.es strip goes right under it, ABOVE the Zayra strip. Needs the "Home" CSS block of comprarcarne-case.css. Give every new text node data-en / data-es (copy.json -> work_card) and use the Home's existing language logic for the hrefs.
+H1, title and description of /work, /es/work, / and /es stay unchanged.
+
+STEP 5 — OTHER INTERNAL LINKS
+a) /work/arturos, /es/work/arturos, /work/zayra and /es/work/zayra: add "comprarcarne.es case" / "Caso comprarcarne.es" to nav.related (snippets/related_links.html).
+b) Insights: add the sentence + link from snippets/insights_links.md at the end of the 2 articles listed there.
+
+STEP 6 — SITEMAP, LLMS.TXT, INDEXNOW
+Add the two entries from snippets/sitemap_urls.xml to sitemap.xml (same format as Zayra and Arturos). In llms.txt, under "## Key pages" after the Arturos line, add the line from snippets/llms_txt_line.txt (as a "* " bullet) and update "Last updated". After the production deploy, submit /work/comprarcarne, /es/work/comprarcarne, /work, /es/work, / and /es through the site's existing IndexNow setup; if there is none, tell César.
+
+STEP 7 — VALIDATE ON THE PREVIEW URL (all must pass, EN and ES)
+Run every check in section 7 of ABACUS_COMPRARCARNE_INTEGRATION.md: 200 status, one H1, title/description/lang/canonical/hreflang; silent loop autoplays muted in the hero and the /work card (desktop, iOS Safari, Android Chrome); player in section 07 with poster, controls and sound, never autoplay with sound; JSON-LD valid in Google Rich Results Test and validator.schema.org; /work order Arturos, comprarcarne.es, Zayra, Miguel Cartujo (CASE 04); Home order Arturos block, comprarcarne.es strip, Zayra strip; related links on Arturos and Zayra; 2 Insights links; only metrics.json figures, no client business data, prices, delivery times or AI tool names; responsive at 375 / 768 / 1280 / 1440 with no horizontal scroll (the long H1 must fit); Lighthouse mobile on /work/comprarcarne Performance >= 85, SEO >= 95, Accessibility >= 90; no console errors and zero 404s.
+
+STEP 8 — DEPLOY AND REPORT
+Deploy to the preview/staging URL and send César: the preview URL; screenshots at 375 and 1440 px, EN and ES, of the case page, the /work block and the Home block; the Lighthouse scores; and the list of files changed. Wait for César's written approval. Only then deploy to production, re-run STEP 7 on production, submit IndexNow and report the production URLs. If anything conflicts with the existing code in a way that would force you to touch something on the "do not modify" list, stop and ask César instead of improvising.

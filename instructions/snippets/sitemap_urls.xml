@@ -1,0 +1,19 @@
+<!-- Add both entries to /sitemap.xml, same format as the /work/zayra and /work/arturos entries. -->
+<url>
+<loc>https://aicreativelead.com/work/comprarcarne</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://aicreativelead.com/work/comprarcarne" />
+<xhtml:link rel="alternate" hreflang="es" href="https://aicreativelead.com/es/work/comprarcarne" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://aicreativelead.com/work/comprarcarne" />
+<lastmod>PUBLISH_DATE_ISO8601</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://aicreativelead.com/es/work/comprarcarne</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://aicreativelead.com/work/comprarcarne" />
+<xhtml:link rel="alternate" hreflang="es" href="https://aicreativelead.com/es/work/comprarcarne" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://aicreativelead.com/work/comprarcarne" />
+<lastmod>PUBLISH_DATE_ISO8601</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>

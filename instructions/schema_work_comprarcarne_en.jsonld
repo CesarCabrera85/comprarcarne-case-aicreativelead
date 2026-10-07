@@ -1,0 +1,141 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "CreativeWork",
+   "@id": "https://aicreativelead.com/work/comprarcarne#case",
+   "name": "comprarcarne.es — The box is here",
+   "headline": "comprarcarne.es case: an AI TV commercial for a real client",
+   "description": "How AI Creative Lead produced a TV commercial with generative AI for comprarcarne.es, a client since 2024: the brand’s real box, appetizing food and a family, shot by shot.",
+   "url": "https://aicreativelead.com/work/comprarcarne",
+   "mainEntityOfPage": "https://aicreativelead.com/work/comprarcarne",
+   "inLanguage": "en",
+   "image": "https://aicreativelead.com/images/cases/comprarcarne/comprarcarne-og-1200x630.jpg",
+   "creator": {
+    "@id": "https://aicreativelead.com/#org"
+   },
+   "publisher": {
+    "@id": "https://aicreativelead.com/#org"
+   },
+   "contributor": {
+    "@id": "https://aicreativelead.com/#cesar"
+   },
+   "about": {
+    "@id": "https://aicreativelead.com/work/comprarcarne#client"
+   },
+   "sponsor": {
+    "@id": "https://aicreativelead.com/work/comprarcarne#client"
+   },
+   "genre": "TV commercial",
+   "keywords": "AI TV commercial, AI commercial for a real brand, AI food commercial, product integration, comprarcarne.es",
+   "isPartOf": {
+    "@type": "CollectionPage",
+    "@id": "https://aicreativelead.com/work"
+   },
+   "datePublished": "PUBLISH_DATE_ISO8601",
+   "video": {
+    "@id": "https://aicreativelead.com/work/comprarcarne#film"
+   }
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://aicreativelead.com/work/comprarcarne#client",
+   "name": "comprarcarne.es",
+   "url": "https://comprarcarne.es/",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Málaga",
+    "addressCountry": "ES"
+   }
+  },
+  {
+   "@type": "VideoObject",
+   "@id": "https://aicreativelead.com/work/comprarcarne#film",
+   "name": "comprarcarne.es — AI TV commercial",
+   "description": "A TV commercial for comprarcarne.es, the online butcher’s from Málaga: an order, a wait, a doorbell and the brand’s real box at the door — produced end to end with generative AI for a client we have worked with since 2024.",
+   "thumbnailUrl": [
+    "https://aicreativelead.com/images/cases/comprarcarne/comprarcarne-hero-poster.jpg"
+   ],
+   "contentUrl": "https://aicreativelead.com/media/comprar-carne-spot-2026.mp4",
+   "uploadDate": "PUBLISH_DATE_ISO8601",
+   "duration": "PT21S",
+   "width": 1280,
+   "height": 720,
+   "inLanguage": "es",
+   "creator": {
+    "@id": "https://aicreativelead.com/#org"
+   },
+   "publisher": {
+    "@id": "https://aicreativelead.com/#org"
+   },
+   "director": {
+    "@id": "https://aicreativelead.com/#cesar"
+   },
+   "sponsor": {
+    "@id": "https://aicreativelead.com/work/comprarcarne#client"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://aicreativelead.com/work/comprarcarne#faq",
+   "inLanguage": "en",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Can an AI commercial show a brand’s real product?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Here the client’s real delivery box — colour, logo and printed copy — was reproduced from reference images and only revealed when the doorbell rings."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can food look appetizing in an AI-generated ad?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, when it is directed like a food shoot: golden crust and sizzle on the pan, real knife-and-fork use, and every plate reviewed shot by shot."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can an AI commercial feature children?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. The children are AI-generated characters — no real children are filmed — and the family is designed before production starts."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does an AI commercial need a shoot, a set or a crew?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. The house, the family and every shot were generated: no cameras, crew or location hire. Direction, editing and review work as in any production."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://aicreativelead.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Work",
+     "item": "https://aicreativelead.com/work"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "comprarcarne.es",
+     "item": "https://aicreativelead.com/work/comprarcarne"
+    }
+   ]
+  }
+ ]
+}

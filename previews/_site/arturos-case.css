@@ -1,0 +1,109 @@
+/* =====================================================================
+   ARTUROS CASE — the ONLY new CSS for /work/arturos and /es/work/arturos
+   ---------------------------------------------------------------------
+   The page reuses the existing .zayra-scope design system exactly as it
+   is on /work/zayra (tokens, hero, facts, chainbar, sec-head, two, big,
+   ticks, chapters/chap, rules, idgrid, board, films, nums, brand3, note).
+   Wrapper on the page:  <div class="zayra-scope case-arturos">
+   Everything below is scoped to .case-arturos so nothing global changes.
+   ===================================================================== */
+
+/* Case accent: Arturos orange instead of the Zayra magenta.
+   (#ff3b30 stays for ON AIR dot, brand "LEAD" and .btn-red — untouched) */
+.zayra-scope.case-arturos{--sig:#FF5A00}
+
+/* Hero: poster + silent loop of the film (same as /work/zayra); longer subtitle kept on one line */
+.case-arturos .hero .poster img{object-position:50% 32%}
+.case-arturos .hero h1 span{letter-spacing:.24em}
+/* the poster is bright at the top (orange cap): keep the hero-meta line legible */
+.case-arturos .hero::before{content:"";position:absolute;inset:0 0 auto 0;height:110px;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(6,6,6,.7),rgba(6,6,6,0))}
+.case-arturos .hero-meta{color:#d6d6d0}
+
+/* 03 — story timeline: same .chapters/.chap component, 6 moments */
+.case-arturos .chapters.c6{grid-template-columns:repeat(6,1fr)}
+.case-arturos .chapters.c6 .chap b{font-size:clamp(20px,1.9vw,27px);line-height:1}
+@media(max-width:1000px){.case-arturos .chapters.c6{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:620px){.case-arturos .chapters.c6{grid-template-columns:repeat(2,1fr)}}
+
+/* 04 — cast: two 16:9 frames with the .idgrid overlay caption */
+.case-arturos .idgrid.w2{grid-template-columns:repeat(2,1fr);margin-bottom:6px}
+.case-arturos .idgrid.w2 img{aspect-ratio:16/9}
+@media(max-width:700px){.case-arturos .idgrid.w2{grid-template-columns:1fr}}
+
+/* 06 — shot map sits on black instead of the storyboard paper */
+.case-arturos .board.dark{background:#000}
+
+/* 06 + 07 — frames with caption underneath (18-shot grid, product pair) */
+.case-arturos .frames{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,1.8vw,22px) 6px}
+.case-arturos .frames.f2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:900px){.case-arturos .frames{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.case-arturos .frames,.case-arturos .frames.f2{grid-template-columns:1fr}}
+.case-arturos .frames figure{margin:0}
+.case-arturos .frames img{width:100%;aspect-ratio:16/9;object-fit:cover;border:1px solid var(--line-soft)}
+.case-arturos .frames figcaption{margin-top:8px;font-size:13px;line-height:1.5;color:#bdbdb8}
+.case-arturos .frames figcaption b{display:block;font-family:var(--mono);font-weight:500;font-size:10px;letter-spacing:.16em;color:var(--sig);margin-bottom:3px;text-transform:uppercase}
+
+/* 08 — one master film, full width */
+.case-arturos .films.solo{grid-template-columns:1fr}
+.case-arturos .film-extra a{color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:2px}
+.case-arturos .film-extra a:hover{border-color:var(--sig)}
+
+/* 09 — press card (same lines and type as the .live strip) */
+.case-arturos .press{border:1px solid var(--line);display:grid;grid-template-columns:230px 1fr auto}
+.case-arturos .press>*{padding:clamp(16px,2vw,26px)}
+.case-arturos .press .meta{border-right:1px solid var(--line);display:grid;gap:8px;align-content:start}
+.case-arturos .press .meta i{font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--sig)}
+.case-arturos .press .meta b{font-family:var(--disp);font-size:26px;text-transform:uppercase;line-height:1;letter-spacing:.02em}
+.case-arturos .press .meta span{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase}
+.case-arturos .press .lbl{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--dimmer);text-transform:uppercase;margin-bottom:8px}
+.case-arturos .press blockquote{margin:0 0 16px;font-family:var(--disp);font-weight:700;font-size:clamp(22px,2.4vw,34px);line-height:1;text-transform:uppercase}
+.case-arturos .press p{margin:0;color:#bdbdb8;font-size:14px;line-height:1.65;max-width:72ch}
+.case-arturos .press a.read{border-left:1px solid var(--line);display:grid;place-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--sig);white-space:nowrap;transition:background .25s}
+.case-arturos .press a.read:hover{background:var(--bg-2)}
+@media(max-width:900px){
+  .case-arturos .press{grid-template-columns:1fr}
+  .case-arturos .press .meta{border-right:0;border-bottom:1px solid var(--line)}
+  .case-arturos .press a.read{border-left:0;border-top:1px solid var(--line);place-items:start}
+}
+
+/* 10 — six production figures: 3 x 2 instead of 4 columns */
+.case-arturos .nums.n3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:900px){.case-arturos .nums.n3{grid-template-columns:1fr 1fr}}
+
+/* 12 — FAQ (visible on the page; mirrors the FAQPage JSON-LD) */
+.case-arturos .faq{display:grid;grid-template-columns:1fr 1fr;border-left:1px solid var(--line);border-top:1px solid var(--line)}
+.case-arturos .faq>div{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 18px 24px}
+.case-arturos .faq span{font-family:var(--mono);font-size:10px;color:var(--sig);letter-spacing:.18em}
+.case-arturos .faq h3{margin:8px 0 10px;font-family:var(--disp);font-size:clamp(21px,2.1vw,28px);text-transform:uppercase;line-height:1}
+.case-arturos .faq p{margin:0;color:var(--dim);font-size:14px;line-height:1.65}
+@media(max-width:860px){.case-arturos .faq{grid-template-columns:1fr}}
+
+/* =====================================================================
+   /work + /es/work — "Featured cases" with three cards:
+   Arturos (case of the month) first, Zayra second, Miguel Cartujo below
+   ===================================================================== */
+.zayra-scope .fcases.three{grid-template-columns:1fr 1fr}
+.zayra-scope .fcases.three .wcard.sec{grid-column:1/-1;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);grid-template-rows:auto}
+.zayra-scope .wcard.arturos{--sig:#FF5A00}
+@media(max-width:1000px){
+  .zayra-scope .fcases.three{grid-template-columns:1fr}
+  .zayra-scope .fcases.three .wcard.sec{grid-template-columns:1fr}
+}
+
+/* =====================================================================
+   Home + /es — section#featured-case: Arturos is the main .fcase
+   (orange accent), Zayra moves to the .fcase-next strip below (keeps magenta)
+   ===================================================================== */
+.zayra-scope .fcase.arturos{--sig:#FF5A00}
+.zayra-scope .fcase-next{margin-top:10px;border:1px solid var(--line);display:grid;grid-template-columns:200px 1fr auto;align-items:center;transition:border-color .25s}
+.zayra-scope .fcase-next:hover{border-color:var(--ink)}
+.zayra-scope .fcase-next picture,.zayra-scope .fcase-next img{width:100%;height:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.zayra-scope .fcase-next .txt{padding:14px clamp(14px,2vw,24px);display:grid;gap:6px}
+.zayra-scope .fcase-next .k{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--sig)}
+.zayra-scope .fcase-next b{font-family:var(--disp);font-weight:900;font-size:clamp(24px,2.6vw,36px);line-height:.9;text-transform:uppercase}
+.zayra-scope .fcase-next p{margin:0;color:#bdbdb8;font-size:13.5px;line-height:1.55;max-width:62ch}
+.zayra-scope .fcase-next .go{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--sig);padding:0 clamp(14px,2vw,24px);white-space:nowrap}
+@media(max-width:760px){
+  .zayra-scope .fcase-next{grid-template-columns:1fr}
+  .zayra-scope .fcase-next .go{padding:0 14px 14px}
+}
